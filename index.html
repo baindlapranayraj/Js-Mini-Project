@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">What's New</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="text-part">
+                <h1>Thats What <br> I Like</h1>
+                <p>Life is short. Break the rules, forgive quickly, kiss slowly, love truly, laugh uncontrollably, and never regret anything that made you smile. Especially that Pepsi you had with friends.</p>
+                <a href="#" class="btn">VIEW ALL PRODUCTS</a>
+            </div>
+            <div class="img-part">
+                <img src="pepsi001.png" alt="" id="main-img">
+            </div>
+            <div class="selecting">
+                <ul>
+                    <li><img src="pepsi001.png" alt="" onclick="colorChange('#167ac6') ,imgSlide('pepsi001.png')"></li>
+                    <li><img src="pepsi002.png" alt="" onclick="colorChange('#cc0000'),imgSlide('pepsi002.png')"></li>
+                    <li><img src="pepsi003.png" alt="" onclick="colorChange('#212121'),imgSlide('pepsi003.png')"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
